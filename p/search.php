@@ -1,6 +1,6 @@
 <?php
 require_once './filter.php';
-require_once './endpoint.php';
+require_once './endpoint-sparql.php';
 
 if (isset($_GET['from']) && !empty($_GET['from'])) {
   if (isset($_GET['to']) && !empty($_GET['to'])) {

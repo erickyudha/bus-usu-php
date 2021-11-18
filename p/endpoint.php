@@ -10,7 +10,6 @@ $allData = $graph->resourcesMatching('bus:class');
 
 $allBusData = array();
 
-$i = 0;
 foreach ($allData as $data) {
   $busData = array();
 
@@ -24,6 +23,4 @@ foreach ($allData as $data) {
 
   array_push($allBusData, $busData);
   unset($busData);
-
-  $i++;
 };
