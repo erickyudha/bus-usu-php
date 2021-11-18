@@ -1,5 +1,6 @@
 <?php
 require_once './filter.php';
+// CHOOSE 1 ENDPOINT FILE: endpoint.php or endpoint-sparql.php
 require_once './endpoint-sparql.php';
 
 if (isset($_GET['from']) && !empty($_GET['from'])) {
