@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'b858f145d9dcecf994a1d073ece25a380eb0f4cb',
+        'reference' => 'e6ea2a2f96d1e056e75ba67df2500a9923cb5607',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'b858f145d9dcecf994a1d073ece25a380eb0f4cb',
+            'reference' => 'e6ea2a2f96d1e056e75ba67df2500a9923cb5607',
             'dev_requirement' => false,
         ),
         'easyrdf/easyrdf' => array(

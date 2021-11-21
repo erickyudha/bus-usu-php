@@ -1,0 +1,101 @@
+.resultcard{
+    width: 500px;
+    height: 290px;
+    border-radius: 8px;
+    background-color:rgb(221, 205, 174);
+    background-size: cover;
+    margin: 15px;
+    padding: 15px;
+    padding-top: 8px;
+    display: grid;
+    grid-template-areas:
+    "kelas . agen"
+    "kelas . telepon"
+    ". . ."
+    "fasilitas . rute"
+    "fasilitas . tiket";
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 0fr 0fr 1fr 1fr;
+    object-fit: contain;
+    background-position:center;
+
+}
+
+body {
+    background: url("https://images.unsplash.com/photo-1476067897447-d0c5df27b5df?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d2F5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60") no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    color: whitesmoke;
+}
+
+.kelas{
+    font-weight: bold;
+    font-size: 2.2em;
+    grid-area: kelas;
+    text-transform: uppercase;
+    color: black;
+}
+
+.fasilitas{
+    background-color: rgba(145, 139, 139, 0.599);
+    padding: 10px;
+    color: black;
+    width: 250px;
+    border-radius: 15px;
+    grid-area: fasilitas;
+}
+
+.fasilitas h2{
+    font-size: 1.2em;
+    font-style: italic;
+    margin: 0;
+}
+
+.fasilitas p{
+    font-size: 0.9em;
+}
+
+.agen{
+    grid-area: agen;
+    justify-self: end;
+    text-align: end;
+    font-size:1.38em;
+    font-style: italic;
+    color: black;
+}
+
+.telepon{
+    grid-area: telepon;
+    justify-self: end;
+    text-align: end;
+    font-size:1.38em;
+    font-style: italic;
+    color: black;
+}
+
+.rute {
+    grid-area: rute;
+    font-size: 1.38em;
+    justify-self: end;
+    align-self: end;
+    margin: 0;
+    color: black;
+}
+
+.tiket {
+    grid-area: tiket;
+    justify-self: end;
+    font-weight: bold;
+    font-size: 2.4em;
+    align-self: start;
+    color: black;
+}
+
+.resultcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
