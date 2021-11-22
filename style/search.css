@@ -24,8 +24,8 @@
 .backgroundsearch {
     background-color: rgba(101, 101, 101, 0.251);
     padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
     margin-top: 60px;
 }
 
@@ -85,14 +85,11 @@ body {
 
 .rute {
     grid-area: rute;
-    font-size: 1.2em;
+    font-size: 1.38em;
     justify-self: end;
     align-self: end;
     margin: 0;
     color: black;
-    text-align: end;
-    font-weight: bold;
-    font-style: italic;
 }
 
 .tiket {
