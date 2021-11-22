@@ -33,6 +33,7 @@ if (isset($_GET['from']) && !empty($_GET['from'])) {
     <link rel="stylesheet" href="../style/search.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <title>Search Result -  BUS KITA</title>
+    <link rel="icon" href="../img/bus-solid.png">
   </head>
   <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed top navigasi">
