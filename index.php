@@ -52,22 +52,22 @@
         <div class="carousel-item active">
           <img src="img/bus1.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+            <h5>Selamat Datang</h5>
+            <p>Hai selamat datang di website kami</p>
           </div>
         </div>
         <div class="carousel-item">
           <img src="img/bus2.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
+            <h5>Bus Kita</h5>
+            <p>Website tentang informasi rute bus</p>
           </div>
         </div>
         <div class="carousel-item">
           <img src="img/bus4.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+            <h5>Aman dan Terpercaya</h5>
+            <p>Kenyamanan anda prioritas kami</p>
           </div>
         </div>
       </div>
@@ -161,7 +161,6 @@
       </div>
 
       <!-- FORM SEARCH -->
-    
     <div class="container col-md-6">
       <h2 class="alert alert-dark text-center mt-5">MASUKKAN RUTE KOTA YANG DINGINKAN</h2>
       <form action="p/search.php" method="get">
@@ -215,7 +214,7 @@
 
             <div class="col-md-3 text-center tim">
               <img 
-                src="https://s3.amazonaws.com/cms-assets.tutsplus.com/uploads/users/810/profiles/19338/profileImage/profile-square-extra-small.png"
+                src="img/Erik.jpeg"
                 class="rounded-circle mb-3"
               />
               <h4>Erick Yudha</h4>
@@ -224,7 +223,7 @@
 
             <div class="col-md-3 text-center tim">
               <img 
-                src="https://s3.amazonaws.com/cms-assets.tutsplus.com/uploads/users/810/profiles/19338/profileImage/profile-square-extra-small.png"
+                src="img/Rio.jpeg"
                 class="rounded-circle mb-3"
               />
               <h4>Rio Fransisco</h4>

@@ -24,7 +24,7 @@ $newsViewData = filterWisataDataByCity($allWisataData, "medan");
   <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed top navigasi">
         <div class="container ">
-          <a class="navbar-brand" href="#"><i class="fas fa-bus-alt"></i> BUS KITA</a>
+          <a class="navbar-brand" href="../index.php"><i class="fas fa-bus-alt"></i> BUS KITA</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -38,20 +38,20 @@ $newsViewData = filterWisataDataByCity($allWisataData, "medan");
         </div>
     </nav>
     
-    <div class="container-fluid">
-    <div class="container pt-5 pb-5">
+    <div class="container-fluid background">
+    <div class="container pt-5 pb-5 backgroundberita">
       <h2>Tempat Wisata di Kota Medan</h2>
       <div class="container mt-5 col-md-10">
         <?php
         $i = 1;
         foreach ($newsViewData as $data) {
           echo (
-            "<h2 class='pb-3'>$i. ${data['name']}</h2>" .
+            "<h3 class='pb-3 display-6'>$i. ${data['name']}</h3>" .
             '<table class="table table-borderless tablebackground">' .
-            "  <tr><td  class='lebar'><h4>Nama Wisata</h4></td><td>${data['name']}</td></tr>" .
-            "  <tr><td><h4>Deskripsi Tempat</h4></td> <td>${data['desc']}</td></tr>" .
-            "  <tr><td><h4>Harga Tiket</h4></td><td>Rp ${data['price']}</td></tr>" .
-            "  <tr><td><h4>No.Telepon</h4></td><td>${data['phone']}</td></tr>" .
+            "  <tr><td  class='lebar'><h5>Nama Wisata</h5></td><td>${data['name']}</td></tr>" .
+            "  <tr><td><h5>Deskripsi Tempat</h5></td> <td>${data['desc']}</td></tr>" .
+            "  <tr><td><h5>Harga Tiket</h5></td><td>Rp ${data['price']}</td></tr>" .
+            "  <tr><td><h5>No.Telepon</h5></td><td>${data['phone']}</td></tr>" .
             "</table>"
           );
           $i++;

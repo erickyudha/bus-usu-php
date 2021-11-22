@@ -2,7 +2,7 @@
     width: 500px;
     height: 290px;
     border-radius: 8px;
-    background-color:rgb(221, 205, 174);
+    background-color:rgb(206, 135, 4);
     background-size: cover;
     margin: 15px;
     padding: 15px;
@@ -21,13 +21,21 @@
 
 }
 
+.backgroundsearch {
+    background-color: rgba(101, 101, 101, 0.251);
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 60px;
+}
+
 body {
-    background: url("https://images.unsplash.com/photo-1476067897447-d0c5df27b5df?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d2F5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60") no-repeat center center;
+    background: url(../img/bus3.jpg) no-repeat center center;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     height: 100%;
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
 }
 
 .kelas{

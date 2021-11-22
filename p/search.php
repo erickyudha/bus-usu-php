@@ -41,23 +41,23 @@ if (isset($_GET['from']) && !empty($_GET['from'])) {
   <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed top navigasi">
         <div class="container ">
-          <a class="navbar-brand" href="#"><i class="fas fa-bus-alt"></i> BUS KITA</a>
+          <a class="navbar-brand" href="../index.php"><i class="fas fa-bus-alt"></i> BUS KITA</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="../index.html"><i class="fas fa-home"></i>Home</a>
+                <a class="nav-link" href="../index.php"><i class="fas fa-home"></i>Home</a>
               </li>
             </ul>
           </div>
         </div>
     </nav>
     
-    <div class="container-fluid">
-      <div class="container pt-5 pb-5 mb-5">
-        <h1>Search Result :</h1>
+    <div class="container-fluid ">
+      <div class="container pb-5 mb-5 backgroundsearch">
+        <h1 class="display-5"><strong>Search Result :</strong> </h1>
         <div class="container resultcontainer">
         
             <?php
